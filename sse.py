@@ -21,7 +21,7 @@ import requests
 import pandas as pd
 from datetime import datetime
 import os
-from typing import Optional, Dict, Union, List
+from typing import Optional, List
 import json
 import random
 

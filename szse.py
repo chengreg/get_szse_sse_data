@@ -15,17 +15,14 @@
 --------------------------------------------------------------------------"""
 import warnings
 warnings.filterwarnings('ignore', category=UserWarning, module='openpyxl')
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+
 import time
 import os
 from datetime import datetime
 import pandas as pd
 import requests
 from urllib.parse import urljoin
-from typing import Optional, Dict, Union
+from typing import Optional
 
 
 class SZSEMarketData:
