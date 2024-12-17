@@ -21,7 +21,7 @@
 
 1. 克隆仓库：
 ```bash
-git clone [repository-url]
+git clone https://github.com/chengreg/get_szse_sse_data.git
 cd get_szse_sse_data
 ```
 
